@@ -1,2 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
+
+body {font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; background-color:#CEECF7;
+}
+
+header {
+	border: solid;
+	padding-left: 15px;
+	background-color: blue;
+	color: yellow;
+}
+
