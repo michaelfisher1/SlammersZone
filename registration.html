@@ -16,17 +16,31 @@
     <li><a href="contact.html">Contact Us</a></li>
 </ul>
 </header>
-    	<p>Welcome to Slammers' Competition Registration, please fill out the following details:</p>
-        	<ul>
-            	<li>Name</li>
-                <li>Phone Number</li>
-                <li>Email</li>
-                <li>Competition Day (Monday-Saturday)</li>
-                <li>Competition Time (Morning or Afternoon)</li>
-                <li>I have read the "Playing Guidelines" below (Yes or No)</li>
-             </ul>
-    <h2>Playing Guidelines</h2>
-    	<p>Participants in Slammers Beach Volleyball play at their own risk. Anyone playing is responsible for their own safety and should only play if they are capable. Check with your docor before you begin. Game fees must be paid prior to the start of the game. Games may be cancelled by players up to 4 hours beforehand to get a refund. Without 4 hours notice, participants will forfeit the game and be charged 50% of the game fee.</p>
+    	<div id="registerwelcome"><p>Welcome to Slammers' Competition Registration. You are one step away from participating in the next Slammers' Volleball Tournament, where you will test your skills against a whole lineup of other teams to climb the arena ladder. Best of luck! To register please fill out the following details:</p></div>
+        <form>
+        	<span class="formhead">Full Name:</span><br>
+            	<input type="text" name="Full Name"><br>
+            <span class="formhead">Phone Number:</span><br>
+            	<input type="text" name="Phone Number"><br>
+            <span class="formhead">Email:</span><br>
+            	<input type="text" name="Email"><br>
+           <span class="formhead"> Competition Day</span><br>
+            	<input type="radio" name="day" value="Monday">Monday<br>
+                <input type="radio" name="day" value="Tuesday">Tuesday<br>
+                <input type="radio" name="day" value="Wednesday">Wednesday<br>
+                <input type="radio" name="day" value="Thursday">Thursday<br>
+                <input type="radio" name="day" value="Friday">Friday<br>
+                <input type="radio" name="day" value="Saturday">Saturday<br>
+            <span class="formhead">Competition Time</span><br>
+            	<input type="radio" name="time" value="Morning">Morning<br>
+                <input type="radio" name="time" value="Afternoon">Afternoon<br>
+            <span class="formhead">Playing Guidelines</span><br>
+            Participants in Slammers Beach Volleyball play at their own risk. Anyone playing is responsible for their own safety and should only play if they are capable. Check with your docor before you begin. Game fees must be paid prior to the start of the game. Games may be cancelled by players up to 4 hours beforehand to get a refund. Without 4 hours notice, participants will forfeit the game and be charged 50% of the game fee.<br>
+            <span class="formhead">Have you read and understand the "Playing Guidelines"?</span><br>
+            	<input type="radio" name="agree" value="Yes">Yes<br>
+                <input type="radio" name="agree" value="No">No<br>
+                <input type="submit" value="submit">
+                </form>
         <footer>
        <ul>
        	<li><a href="index.html">Slammers' Home</a></li>
