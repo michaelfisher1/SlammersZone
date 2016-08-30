@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; background-color:#CEECF7;
+body {font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif; background-color:#CEECF7;
 }
 
 header {
@@ -40,34 +40,32 @@ header ul li {
 }
 
 #registerButton h2{position:absolute;
-	left:750px;
+	left:690px;
 	top:120px;
 	background-color:#E8D6B8;
 	color:blue;
 	border: solid black;
-	max-width: 280px;
+	max-width: 290px;
 	padding:8px;
 }
 
 
 #net {
 	position:absolute;
-	left:360px;
+	left:370px;
 	top:200px;
 	opacity: 0.35;
 }
 
-table {
-	position:absolute;
-	left:380px;
+#standings table {position:absolute;
+	left:420px;
 	top:250px;
 }
 
-table,th {text-align:left;
+#standings table, th {text-align:left;
 }
 
-table, th, td {
-	border: 1px solid black;
+#standings table, th, td {border: 1px solid black;
 	font-weight: bold;
 	padding-left:5px;
 }
@@ -92,12 +90,13 @@ table, th, td {
 	list-style:square; 
 	padding-top:15px; 
 	color: blue; 
+	padding-right:10px;
 
 }
 
 #announcments {
 	position:absolute;
-	top:450px;
+	top:500px;
 	float:right;
 	margin-left:1400px;
 	margin-right:10px;
@@ -108,6 +107,8 @@ table, th, td {
 	background-color: blue;
 	color: yellow;
 	padding: 8px;
+	margin-bottom:-15px;
+	margin-right:10px;
 	font-size: x-large;
 }
 	
@@ -115,7 +116,7 @@ table, th, td {
 	list-style: square;
 	padding-top: 15px;
 	color: blue;
-	list-style-type: square;
+	padding-right:10px;
 }
 
 #welcome {
@@ -157,4 +158,32 @@ footer ul li {
 	font-size:x-small;
 }
 
+#overview {max-width: 750px; margin-left:10px; line-height:150%; float:left;
 
+}
+
+#vbg {
+	float:right;
+	padding-top:50px;
+	margin-right:160px;
+	}
+.contact {
+	display: inline-block;
+	min-width: 80px;
+	
+}
+
+#contactblock {
+	border: medium double yellow;
+	max-width:500px;
+	padding-left:15px;
+	margin-top: 50px;
+}
+
+a:link {
+	color:yellow;
+}
+
+a:visited {
+	color:white;
+}
