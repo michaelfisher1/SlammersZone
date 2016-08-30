@@ -7,7 +7,7 @@ body {font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolboo
 header {
 	border: solid;
 	padding-left: 15px;
-	background-color: blue;
+	background-color:#03166E;
 	color: yellow;
 	position: relative;
 }
@@ -58,7 +58,7 @@ header ul li {
 }
 
 #standings table {position:absolute;
-	left:420px;
+	left:395px;
 	top:250px;
 }
 
@@ -80,7 +80,7 @@ header ul li {
 
 #facilities h3 {
 	border:solid yellow; 
-	background-color:blue; 
+	background-color:#03166E; 
 	color:yellow; 
 	padding: 8px; 
 	font-size: x-large;
@@ -104,7 +104,7 @@ header ul li {
 
 #announcments h4 {
 	border:solid yellow; 
-	background-color: blue;
+	background-color: #03166E;
 	color: yellow;
 	padding: 8px;
 	margin-bottom:-15px;
@@ -126,7 +126,7 @@ header ul li {
 #welcome h5 {
 	position:absolute;  
 	border:solid yellow; 
-	background-color:blue; 
+	background-color:#03166E; 
 	color:yellow; 
 	font-size: x-large;
 	padding: 8px;
@@ -136,7 +136,7 @@ header ul li {
 	position:absolute;
 	top:120px;
 	max-width:325px;
-	color:blue;
+	color:#03166E;
 	line-height:150%;
 	margin-left:10px;
 }
@@ -153,7 +153,7 @@ footer ul li {
 	padding-left: 20px;
 	padding-right: 20px;
 	border: thin yellow solid;
-	background-color:blue;
+	background-color:#03166E;
 	color:yellow;
 	font-size:x-small;
 }
@@ -170,14 +170,16 @@ footer ul li {
 .contact {
 	display: inline-block;
 	min-width: 80px;
-	
 }
 
+
 #contactblock {
-	border: medium double yellow;
+	border: solid #03166E medium;
 	max-width:500px;
+	margin-left:20px;
 	padding-left:15px;
 	margin-top: 50px;
+	float:left;
 }
 
 a:link {
@@ -187,3 +189,47 @@ a:link {
 a:visited {
 	color:white;
 }
+
+#contactblock a:link {
+	color:blue;
+}
+
+p a:link {
+	color:blue;
+}
+
+p a:visited {
+	color:#7322F5
+}
+
+#register {
+	max-width:500px;
+	margin-left:15px;
+	float:left;
+}
+
+form {
+	max-width:700px;
+	margin-left:20px;
+}
+
+.formhead {
+	text-decoration:underline;
+	font-weight:bolder;
+}
+
+#spike {
+	float:right;
+	margin-right:200px;
+	margin-top:50px;
+	border-style:solid;
+	
+}
+
+#girlspike {
+	float:right;
+	margin-right:500px;
+	margin-top:50px;
+	border-style:solid;
+}
+	
