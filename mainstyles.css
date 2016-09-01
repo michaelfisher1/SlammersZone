@@ -39,22 +39,31 @@ header ul li {
 	border: thin yellow solid;
 }
 
-#registerButton h2{position:absolute;
+#registerButton h2{
+	position:absolute;
 	left:690px;
 	top:120px;
-	background-color:#E8D6B8;
+	background-color:white;
 	color:blue;
-	border: solid black;
+	border:dotted red;
 	max-width: 290px;
 	padding:8px;
 }
 
+#registerButton a {color:red; text-decoration:none;}
 
 #net {
 	position:absolute;
 	left:370px;
 	top:200px;
 	opacity: 0.35;
+}
+
+#game {
+	position:absolute;
+	left:650px;
+	top:200px;
+	border-style:solid;
 }
 
 #standings table {position:absolute;
@@ -73,7 +82,6 @@ header ul li {
 #facilities  {
 	float:right;
  	margin-left:1400px; 
-	margin-right:10px; 
 	position:absolute; 
 	top:120px;
 }
@@ -83,14 +91,16 @@ header ul li {
 	background-color:#03166E; 
 	color:yellow; 
 	padding: 8px; 
+	margin-right:10px;
 	font-size: x-large;
+	margin-bottom:-10px;
 }
 
 #facilities li {
 	list-style:square; 
 	padding-top:15px; 
 	color: blue; 
-	padding-right:10px;
+	margin-right:50px;
 
 }
 
@@ -119,11 +129,21 @@ header ul li {
 	padding-right:10px;
 }
 
-#welcome {
+welcome {
 	position:relative;
 }
 
-#welcome h5 {
+.welcome h2 {
+	position:absolute;  
+	border:solid yellow; 
+	background-color:#03166E; 
+	color:yellow; 
+	font-size: x-large;
+	padding: 8px;
+}
+.welcome,h2 p {max-width:350px;}
+
+.welcome h5 {
 	position:absolute;  
 	border:solid yellow; 
 	background-color:#03166E; 
@@ -132,10 +152,10 @@ header ul li {
 	padding: 8px;
 }
 
-#welcome p {
-	position:absolute;
+.welcome p {
+	position:relative;
 	top:120px;
-	max-width:325px;
+	max-width:500px;
 	color:#03166E;
 	line-height:150%;
 	margin-left:10px;
@@ -144,8 +164,10 @@ header ul li {
 footer  {
 	position:absolute;
 	bottom:0px;
-	margin-left:30%;
+	left:410px;
 }
+
+footer p {margin-left:40px;}
 
 footer ul li {
 	display:inline;
@@ -155,7 +177,7 @@ footer ul li {
 	border: thin yellow solid;
 	background-color:#03166E;
 	color:yellow;
-	font-size:x-small;
+	font-size:small;
 }
 
 #overview {max-width: 750px; margin-left:10px; line-height:150%; float:left;
